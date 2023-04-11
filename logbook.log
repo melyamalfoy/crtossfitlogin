@@ -1,0 +1,5 @@
+2023-04-11 10:52:03,096:INFO:====== WebDriver manager ======
+2023-04-11 10:52:03,531:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-11 10:52:03,995:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-11 10:52:13,596:INFO:Waitlisted for 18-04-2023 at 07:00
+2023-04-11 10:52:20,792:INFO:Program has run successfully
