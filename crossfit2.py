@@ -1,6 +1,7 @@
 import os
 import datetime
 import time
+import logging
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -10,8 +11,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
 # Website inloggegevens
-USERNAME = 'username'
-PASSWORD = 'password'
+USERNAME = 'xx'
+PASSWORD = 'xx'
 
 # Functie om webdriver te starten
 def init_driver():
@@ -22,7 +23,7 @@ def init_driver():
 
 # Functie om in te loggen op de website
 def login(driver, username, password):
-    driver.get("crossfitwebsite")
+    driver.get("xx")
 
     WebDriverWait(driver, 20).until(
         EC.presence_of_element_located((By.NAME, "username"))
@@ -35,8 +36,14 @@ def login(driver, username, password):
         EC.presence_of_element_located((By.XPATH, "//a[@class='button' and contains(@onclick, 'submit()')]"))
     ).click()
 
-# Functie om de juiste les te kiezen en in te schrijven of te wachtlijsten
+# configure logger
+logging.basicConfig(filename='logbook.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+
 def choose_and_subscribe(driver):
+    # Bereken de datum van volgende week
+    next_week = datetime.date.today() + datetime.timedelta(days=7)
+    next_week_str = next_week.strftime("%d-%m-%Y")
+
     WebDriverWait(driver, 20).until(
         EC.presence_of_element_located((By.ID, "next"))
     ).click()
@@ -44,14 +51,14 @@ def choose_and_subscribe(driver):
     time.sleep(5)
 
     lessons = driver.find_elements(By.XPATH,
-        "//a[contains(@class, 'box interact') and contains(@class, 'type-1') and contains(@data-time-start, '07:00')]"
+        f"//a[contains(@class, 'box interact') and contains(@class, 'type-1') and contains(@data-date, '{next_week_str}') and contains(@data-time-start, '07:00')]"
     )
 
     # Loop door alle beschikbare lessen in de lijst
     for lesson in lessons:
         lesson_date = lesson.get_attribute('data-date')
 
-         # Controleer of de les vol is door te zoeken naar het woord "full" in de class-attribuut van de les-element
+        # Controleer of de les vol is door te zoeken naar het woord "full" in de class-attribuut van de les-element
         if "full" in lesson.get_attribute("class"):
             lesson.click()
 
@@ -62,7 +69,10 @@ def choose_and_subscribe(driver):
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.XPATH, "//a[contains(@href, 'javascript:void(0);') and contains(@class, 'button greyed')]"))
             )
-            print(f"Waitlisted for {lesson_date} at 07:00")
+           # print(f"Waitlisted for {lesson_date} at 07:00")
+            message = f"Waitlisted for {lesson_date} at 07:00"
+            print(message)
+            logging.info(message)
         else:
             lesson.click()
 
@@ -72,16 +82,23 @@ def choose_and_subscribe(driver):
 
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.XPATH, "//a[contains(@href, 'javascript:void(0);') and contains(@class , 'button greyed')]"))
-                )
-            print(f"Subscribed for {lesson_date} at 07:00")
+            )
+            #print(f"Subscribed for {lesson_date} at 07:00")
+            message = f"Subscribed for {lesson_date} at 07:00"
+            print(message)
+            logging.info(message)
+
 
 # Hoofdfunctie om het script uit te voeren
 def main():
     driver = init_driver()
     login(driver, USERNAME, PASSWORD)
     choose_and_subscribe(driver)
+    message ="Program has run successfully"
     time.sleep(5)
     driver.quit()
+    # Log het einde van het programma
+    logging.info(message)
 
 if __name__ == "__main__":
     main()
