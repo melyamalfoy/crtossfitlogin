@@ -3,3 +3,93 @@
 2023-04-11 10:52:03,995:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
 2023-04-11 10:52:13,596:INFO:Waitlisted for 18-04-2023 at 07:00
 2023-04-11 10:52:20,792:INFO:Program has run successfully
+2023-04-11 11:09:44,605:INFO:====== WebDriver manager ======
+2023-04-11 11:09:45,043:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-11 11:09:45,515:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-11 11:09:55,105:INFO:Waitlisted for 18-04-2023 at 07:00
+2023-04-11 11:10:02,249:INFO:Program has run successfully
+2023-04-12 00:02:02,722:INFO:====== WebDriver manager ======
+2023-04-12 00:02:03,933:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 00:02:04,701:INFO:About to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+2023-04-12 00:02:05,449:INFO:Driver has been saved in cache [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563]
+2023-04-12 00:02:16,634:INFO:Subscribed for 19-04-2023 at 07:00
+2023-04-12 00:02:23,774:INFO:Program has run successfully
+2023-04-12 10:48:17,114:INFO:====== WebDriver manager ======
+2023-04-12 10:48:17,830:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 10:48:18,398:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 10:52:14,668:INFO:====== WebDriver manager ======
+2023-04-12 10:52:15,132:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 10:52:15,653:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 10:52:27,756:INFO:Program has run successfully
+2023-04-12 10:59:00,634:INFO:====== WebDriver manager ======
+2023-04-12 10:59:01,172:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 10:59:01,841:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 10:59:14,481:INFO:Program has run successfully
+2023-04-12 11:00:58,969:INFO:====== WebDriver manager ======
+2023-04-12 11:00:59,452:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:00:59,947:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:01:12,220:INFO:Program has run successfully
+2023-04-12 11:03:12,923:INFO:====== WebDriver manager ======
+2023-04-12 11:03:13,382:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:03:13,889:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:03:25,350:INFO:Program has run successfully
+2023-04-12 11:06:03,712:INFO:====== WebDriver manager ======
+2023-04-12 11:06:04,204:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:06:04,712:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:06:17,304:INFO:Program has run successfully
+2023-04-12 11:09:45,850:INFO:====== WebDriver manager ======
+2023-04-12 11:09:46,315:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:09:46,821:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:09:59,185:INFO:Program has run successfully
+2023-04-12 11:16:55,239:INFO:====== WebDriver manager ======
+2023-04-12 11:16:55,721:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:16:56,242:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:18:05,541:INFO:====== WebDriver manager ======
+2023-04-12 11:18:06,000:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:18:06,497:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:18:10,754:INFO:Already registered for None at 07:00
+2023-04-12 11:18:10,772:INFO:Already registered for 10-04-2023 at 07:00
+2023-04-12 11:18:10,789:INFO:Already registered for 12-04-2023 at 07:00
+2023-04-12 11:18:10,806:INFO:Already registered for 13-04-2023 at 07:00
+2023-04-12 11:18:18,998:INFO:Program has run successfully
+2023-04-12 11:21:20,190:INFO:====== WebDriver manager ======
+2023-04-12 11:21:20,656:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:21:21,173:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:21:25,545:INFO:Already registered or waitlisted for 10-04-2023 at 07:00
+2023-04-12 11:21:25,559:INFO:Already registered or waitlisted for 12-04-2023 at 07:00
+2023-04-12 11:21:25,584:INFO:Already registered or waitlisted for 13-04-2023 at 07:00
+2023-04-12 11:21:33,507:INFO:Program has run successfully
+2023-04-12 11:24:30,965:INFO:====== WebDriver manager ======
+2023-04-12 11:24:31,427:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:24:31,923:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:24:35,971:INFO:Already registered or waitlisted for 10-04-2023 at 07:00
+2023-04-12 11:24:35,999:INFO:Already registered or waitlisted for 12-04-2023 at 07:00
+2023-04-12 11:24:36,014:INFO:Already registered or waitlisted for 13-04-2023 at 07:00
+2023-04-12 11:24:43,169:INFO:Program has run successfully
+2023-04-12 11:36:36,525:INFO:====== WebDriver manager ======
+2023-04-12 11:36:36,985:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:36:37,495:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:36:41,633:INFO:Registered or waitlisted for 10-04-2023 at 07:00
+2023-04-12 11:42:20,226:INFO:====== WebDriver manager ======
+2023-04-12 11:42:20,679:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:42:21,181:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:42:25,588:INFO:Registered or waitlisted for 10-04-2023 at 07:00
+2023-04-12 11:42:33,846:INFO:Program has run successfully
+2023-04-12 11:43:32,199:INFO:====== WebDriver manager ======
+2023-04-12 11:43:32,650:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:43:33,140:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:44:21,974:INFO:====== WebDriver manager ======
+2023-04-12 11:44:22,425:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-12 11:44:22,919:INFO:Driver [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+2023-04-12 11:44:27,093:INFO:Already registered or waitlisted for 10-04-2023 at 07:00
+2023-04-12 11:44:27,129:INFO:Already registered or waitlisted for 12-04-2023 at 07:00
+2023-04-12 11:44:27,152:INFO:Already registered or waitlisted for 13-04-2023 at 07:00
+2023-04-12 11:44:34,337:INFO:Program has run successfully
+2023-04-13 00:00:03,815:INFO:====== WebDriver manager ======
+2023-04-13 00:00:05,071:INFO:Get LATEST chromedriver version for google-chrome 111.0.5563
+2023-04-13 00:00:05,705:INFO:About to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+2023-04-13 00:00:06,572:INFO:Driver has been saved in cache [C:\Users\Melanie\.wdm\drivers\chromedriver\win32\111.0.5563]
+2023-04-13 00:00:11,406:INFO:Already registered or waitlisted for 10-04-2023 at 07:00
+2023-04-13 00:00:11,422:INFO:Already registered or waitlisted for 12-04-2023 at 07:00
+2023-04-13 00:00:11,436:INFO:Already registered or waitlisted for 13-04-2023 at 07:00
+2023-04-13 00:00:21,177:INFO:Program has run successfully
